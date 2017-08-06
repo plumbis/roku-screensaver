@@ -11,12 +11,8 @@ sub RunScreenSaver()
     ' strangers full access to your dropbox account
     dropbox_token = ""
 
-
-
-
     'What is the name of the directory in dropbox where your photos are
     dropbox_folder = "/photos/roku-screensaver/"
-
 
     'The number of photos in dropbox can dynamically change without issue.
     'Resizing the array can take some time if the original estimate (500)
