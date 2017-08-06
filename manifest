@@ -1,44 +1,12 @@
 #
-#  Copyright (c) 2015 Roku, Inc. All rights reserved.
 #  Roku Channel Manifest File
 #  Full spec at bit.ly/roku-manifest-file
 #
 
 ##   Channel Details
-title=Photo Screensaver
+screensaver_title=Dropbox Photos
 major_version=1
-minor_version=1
-build_version=00001
+minor_version=0
+build_version=0
 
-
-#### These are the images used for the channel icon on the main menu/home screen
-#### The image used will be based on screen resolution.
-#### FHD for 1080p, HD for 720p and SD for 480p
-#### Image sizes are FHD: 540x405px | HD: 290x218px | SD: 214x144px
-mm_icon_focus_hd=pkg:/images/mm_icon_focus_hd.png
-mm_icon_focus_sd=pkg:/images/mm_icon_focus_sd.png
-subtitle=A Scene Graph Markup Demo
-
-# Legacy Settings, not currently used in current firmware.
-# Only needed for backwards compatability
-# mm_icon_side_hd=pkg:/images/photoSplashHD.jpg
-# mm_icon_side_sd=pkg:/images/photoSplashSD.jpg
-
-
-###  Splash Screen + Loading Screen Artwork
-###  The splash screen is shown while the app is loading
-#### Image sizes are FHD: 1920x1080px | HD: 1280x720px | SD: 720x480px
-splash_screen_fhd=pkg:/images/splash_screen_fhd.png
-splash_screen_hd=pkg:/images/splash_screen_hd.jpg
-splash_screen_sd=pkg:/images/photoSplashSD.jpg
-
-# How long should the splash screen be shown?
-splash_min_time=3000
 ui_resolutions=fhd
-screensaver_title=Photo Album Screensaver
-
-# Don't show it on the home screen
-# hidden=1
-
-# When we figure out how to do some local photos + cloud, uncomment
-# network_not_required=1
